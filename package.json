@@ -1,0 +1,12 @@
+{
+  "name": "tiktok-id-gate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Serverless TikTok user-ID blocklist backend for the 1dleryu extension (deploy on Vercel).",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@vercel/kv": "^2.0.0"
+  }
+}
